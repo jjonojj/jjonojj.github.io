@@ -12,3 +12,13 @@ p {
     color: #fff;
     font-family: 'Arial', sans-serif;
 }
+
+#title {
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+::selection {
+    background-color: #fff;
+    color: #000;
+}
