@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 html {
     width: 100%;
     height: 100%;
 }
 
 body {
-    background: linear-gradient(180deg, #4f20fa, #30139b);
-}
-
-p {
-    font-size: 30px;
+    margin: 0px;
+    background-color: #44f;
+    font-family: "Roboto Mono", monospace;
     color: #fff;
-    font-family: 'Arial', sans-serif;
 }
 
-#title {
+.title {
     font-style: italic;
+    position: fixed;
+    width: 500px;
+    padding: 0px;
+    margin: 0px;
+    height: 18px;
+    font-size: 18px;
+    text-align: center;
+    left: calc(50% - 250px);
+    top: calc(50% - 8px);
     letter-spacing: 10px;
 }
 
