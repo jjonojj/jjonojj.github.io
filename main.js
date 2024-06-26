@@ -10,7 +10,7 @@ for (let i = 0; i <= 127; i++) {
 
 async function rchars() {
     scr.innerText = ""
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 12; i++) {
         add();
         await sleep(30);
     }
