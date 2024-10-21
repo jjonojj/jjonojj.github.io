@@ -35,3 +35,47 @@ li {
 li::marker {
     color: #222;
 }
+
+a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+button {
+    border: 1px solid #bbb;
+    background-color: #0A0A0A;
+    color: #bbb;
+    font-family: "Iosevka Web", monospace;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+
+button:hover {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+button:active {
+    background-color: #777;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.name-container {
+    height: 40vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.old {
+    color: #777;
+}
