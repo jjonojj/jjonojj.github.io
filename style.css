@@ -79,3 +79,12 @@ button:active {
 .old {
     color: #777;
 }
+
+#color {
+    background-color: #7287fd;
+    color: #222;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+}
